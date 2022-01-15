@@ -14,3 +14,7 @@ function draw() {
 function take_snapshot() {
     save("lipstickFilter.png");
 }
+
+function back() {
+    window.location = "index.html";
+}
